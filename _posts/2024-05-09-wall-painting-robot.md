@@ -43,10 +43,10 @@ Amateur painters consistently cited “cutting” (painting the narrow strip abo
 
 ## 📸 Gallary (WIP)
 
-![Bottle Cap Dispenser Model](/assets/img/wall-painting-robot/bottle-cap-dispenser.jpg)
+![Bottle Cap Dispenser Model](/assets/img/wall-painting-robot/bottle-cap-dispenser.JPG)
 *Final sponge and casing showing overlap design*
 
-![Waterjet Cut Drivebase with Wheels](/assets/img/wall-painting-robot/drivebase-and-wheels.jpg)
+![Waterjet Cut Drivebase with Wheels](/assets/img/wall-painting-robot/drivebase-and-wheels.JPG)
 *Final autonomous wall-painting robot*
 
 ![Full Circuit Schematic](/assets/img/wall-painting-robot/full-circuit.png)
