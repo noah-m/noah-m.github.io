@@ -1,3 +1,6 @@
+# Build to /docs instead of _site
+destination: docs
+
 # The Site Configuration
 
 # Import the theme

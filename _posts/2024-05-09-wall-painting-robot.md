@@ -40,3 +40,35 @@ Amateur painters consistently cited “cutting” (painting the narrow strip abo
 - Successfully painted clean, even lines above varying trim heights with minimal prep.
 - Presented the working prototype at Design and Innovation Day.
 - Demonstrated commercial feasibility in a rental-based business model.
+
+## 📸 Gallary (WIP)
+
+![Bottle Cap Dispenser Model](/assets/img/bottle-cap-dispenser.jpg)
+*Final sponge and casing showing overlap design*
+
+![Waterjet Cut Drivebase with Wheels](/assets/img/drivebase-and-wheels.jpg)
+*Final autonomous wall-painting robot*
+
+![Full Circuit Schematic](/assets/img/full-circuit.png)
+*Final autonomous wall-painting robot*
+
+![Paint Assembly Parts Model](/assets/img/paint-assembly.JPG)
+*Final autonomous wall-painting robot*
+
+![Sensor Circuit Schematic](/assets/img/sensor-circuit.png)
+*Final autonomous wall-painting robot*
+
+![Mounted ToF Sensor](/assets/img/sensor.jpg)
+*Final autonomous wall-painting robot*
+
+![Servo-Switch Assembly Model](/assets/img/servo-assembly-render.JPG)
+*Final autonomous wall-painting robot*
+
+![Servo-Switch Assembly](/assets/img/switch-assembly.png)
+*Final autonomous wall-painting robot*
+
+![Wheel Model](/assets/img/wheel-closeup.JPG)
+*Final autonomous wall-painting robot*
+
+![Wheel Closeup](/assets/img/wheel-closeup-real.jpg)
+*Final autonomous wall-painting robot*
