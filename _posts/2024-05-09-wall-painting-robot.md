@@ -43,32 +43,32 @@ Amateur painters consistently cited “cutting” (painting the narrow strip abo
 
 ## 📸 Gallary (WIP)
 
-![Bottle Cap Dispenser Model](/assets/img/bottle-cap-dispenser.jpg)
+![Bottle Cap Dispenser Model](/assets/img/wall-painting-robot/bottle-cap-dispenser.jpg)
 *Final sponge and casing showing overlap design*
 
-![Waterjet Cut Drivebase with Wheels](/assets/img/drivebase-and-wheels.jpg)
+![Waterjet Cut Drivebase with Wheels](/assets/img/wall-painting-robot/drivebase-and-wheels.jpg)
 *Final autonomous wall-painting robot*
 
-![Full Circuit Schematic](/assets/img/full-circuit.png)
+![Full Circuit Schematic](/assets/img/wall-painting-robot/full-circuit.png)
 *Final autonomous wall-painting robot*
 
-![Paint Assembly Parts Model](/assets/img/paint-assembly.JPG)
+![Paint Assembly Parts Model](/assets/img/wall-painting-robot/paint-assembly.JPG)
 *Final autonomous wall-painting robot*
 
-![Sensor Circuit Schematic](/assets/img/sensor-circuit.png)
+![Sensor Circuit Schematic](/assets/img/wall-painting-robot/sensor-circuit.png)
 *Final autonomous wall-painting robot*
 
-![Mounted ToF Sensor](/assets/img/sensor.jpg)
+![Mounted ToF Sensor](/assets/img/wall-painting-robot/sensor.jpg)
 *Final autonomous wall-painting robot*
 
-![Servo-Switch Assembly Model](/assets/img/servo-assembly-render.JPG)
+![Servo-Switch Assembly Model](/assets/img/wall-painting-robot/servo-assembly-render.JPG)
 *Final autonomous wall-painting robot*
 
-![Servo-Switch Assembly](/assets/img/switch-assembly.png)
+![Servo-Switch Assembly](/assets/img/wall-painting-robot/switch-assembly.png)
 *Final autonomous wall-painting robot*
 
-![Wheel Model](/assets/img/wheel-closeup.JPG)
+![Wheel Model](/assets/img/wall-painting-robot/wheel-closeup.JPG)
 *Final autonomous wall-painting robot*
 
-![Wheel Closeup](/assets/img/wheel-closeup-real.jpg)
+![Wheel Closeup](/assets/img/wall-painting-robot/wheel-closeup-real.jpg)
 *Final autonomous wall-painting robot*
