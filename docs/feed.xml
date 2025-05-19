@@ -1,0 +1,77 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://noah-m.github.io/</id>
+  <title>Noah Mould</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2025-05-18T22:51:51-07:00</updated>
+  <author>
+    <name>Noah Mould</name>
+    <uri>https://noah-m.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://noah-m.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://noah-m.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator>
+  <rights> © 2025 Noah Mould </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Wall-Painting Robot</title>
+    <link href="https://noah-m.github.io/posts/wall-painting-robot/" rel="alternate" type="text/html" title="Wall-Painting Robot" />
+    <published>2025-05-09T00:00:00-07:00</published>
+  
+    <updated>2025-05-09T00:00:00-07:00</updated>
+  
+    <id>https://noah-m.github.io/posts/wall-painting-robot/</id>
+    <content type="text/html" src="https://noah-m.github.io/posts/wall-painting-robot/" />
+    <author>
+      <name>Noah Mould</name>
+    </author>
+
+  
+    
+    <category term="Projects" />
+    
+  
+
+  <summary>Autonomous Robot for Precision Wall Painting
+
+I led the design, programming, and integration of an autonomous robot designed to paint a clean, uniform line above wall trim—one of the most tedious tasks in residential wall painting. This project was developed as part of a year-long engineering design course and required close collaboration across mechanical, electrical, and software subteams.
+
+P...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Heated Umbrella</title>
+    <link href="https://noah-m.github.io/posts/heated-umbrella/" rel="alternate" type="text/html" title="Heated Umbrella" />
+    <published>2025-05-09T00:00:00-07:00</published>
+  
+    <updated>2025-05-18T22:40:04-07:00</updated>
+  
+    <id>https://noah-m.github.io/posts/heated-umbrella/</id>
+    <content type="text/html" src="https://noah-m.github.io/posts/heated-umbrella/" />
+    <author>
+      <name>Noah Mould</name>
+    </author>
+
+  
+    
+    <category term="Projects" />
+    
+  
+
+  <summary>For Those with Cold hands
+
+⚠ Page Under Construction ⚠</summary>
+
+  </entry>
+
+</feed>
+
+
