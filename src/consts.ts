@@ -3,7 +3,7 @@ import type { IconMap, SocialLink, Site } from '@/types'
 export const SITE: Site = {
   title: 'Noah Mould',
   description:
-    "Noah Mould's personal website and portfolio.",
+    "Fourth Year Integrated Engineering Student Studying Mechatronics at The University of British Columbia",
   href: 'https://noah-m.github.io/',
   author: 'Noah Mould',
   locale: 'en-US',
