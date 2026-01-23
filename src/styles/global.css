@@ -29,7 +29,7 @@
   src: url('/fonts/GeistVF.woff2') format('woff2-variations');
   font-weight: 100 900;
   font-style: normal;
-  font-display: optional;
+  font-display: swap;
 }
 
 @font-face {
@@ -37,7 +37,7 @@
   src: url('/fonts/GeistMonoVF.woff2') format('woff2-variations');
   font-weight: 100 900;
   font-style: normal;
-  font-display: optional;
+  font-display: swap;
 }
 
 :root {
@@ -87,6 +87,7 @@
 
   html {
     @apply bg-background text-foreground scheme-light;
+    font-size: 16px;
   }
 
   html[data-theme='dark'] {
