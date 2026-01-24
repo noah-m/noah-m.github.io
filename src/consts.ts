@@ -7,7 +7,7 @@ export const SITE: Site = {
   href: 'https://noah-m.github.io/',
   author: 'Noah Mould',
   locale: 'en-US',
-  featuredPostCount: 2,
+  featuredPostCount: 3,
   postsPerPage: 3,
 }
 
