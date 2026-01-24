@@ -2,8 +2,6 @@
 import BlogCard from '@/components/BlogCard.astro'
 import Link from '@/components/Link.astro'
 import PageHead from '@/components/PageHead.astro'
-import Skills from '@/components/react/Skills'
-import { ErrorBoundary } from '@/components/react/ErrorBoundary'
 import { buttonVariants } from '@/components/ui/button'
 import Layout from '@/layouts/Layout.astro'
 import { Icon } from 'astro-icon/components'
@@ -92,7 +90,7 @@ const experience: ExperienceItem[] = [
 ]
 ---
 <Layout class="max-w-3xl" transition:persist="home-layout">
-  <PageHead slot="head" title={SITE.title} fullTitle={true} />
+  <PageHead slot="head" title={SITE.title} />
   
   <!-- Schema Markup for SEO -->
   <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
@@ -208,9 +206,6 @@ const experience: ExperienceItem[] = [
         Technologies and tools I work with
       </p>
     </div>
-    <ErrorBoundary client:load transition:persist="skills-error-boundary">
-      <Skills client:load transition:persist="skills-section" />
-    </ErrorBoundary>
   </section>
 
   <!-- Latest from the blog -->
