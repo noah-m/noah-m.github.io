@@ -20,7 +20,7 @@ import type { ExpressiveCodeTheme } from 'rehype-expressive-code'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  site: 'https://astro-erudite.vercel.app',
+  site: 'https://noah-m.github.io',
   integrations: [mdx(), react(), sitemap(), icon()],
   redirects: {
     '/posts/wall-painting-robot': '/blog/wall-painting-robot',
