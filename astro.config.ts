@@ -27,6 +27,7 @@ export default defineConfig({
     '/posts/heated-umbrella': '/blog/heated-umbrella',
     '/posts': '/blog',
     '/posts/triumf-air-dryer': '/blog/triumf-air-dryer',
+    '/posts/motor-driver-hat': '/blog/motor-driver-hat',
   },
   vite: {
     plugins: [tailwindcss()],
