@@ -22,6 +22,12 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   site: 'https://astro-erudite.vercel.app',
   integrations: [mdx(), react(), sitemap(), icon()],
+  redirects: {
+    '/posts/wall-painting-robot': '/blog/wall-painting-robot',
+    '/posts/heated-umbrella': '/blog/heated-umbrella',
+    '/posts': '/blog',
+    '/posts/triumf-air-dryer': '/blog/triumf-air-dryer',
+  },
   vite: {
     plugins: [tailwindcss()],
   },
