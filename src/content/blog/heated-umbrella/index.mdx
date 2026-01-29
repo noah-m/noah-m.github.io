@@ -6,17 +6,38 @@ tags: ['Embedded Systems', 'CAD', 'sensors', 'IoT']
 image: './banner.jpg'
 ---
 
-**For Those with Cold hands**
+---
+title: 'Smart Heated Umbrella'
+description: 'Because cold rain should not numb your hands'
+date: 2025-04-18
+tags: ['Embedded Systems', 'CAD', 'Product Design']
+image: './banner.jpg'
+---
 
-# ⚠ Page Under Construction ⚠
+### Smart Heated Umbrella
 
-&nbsp;
+The Smart Heated Umbrella was designed to keep users’ hands warm during cold, rainy walks by integrating an active heating system directly into the handle. The project focused on balancing thermal performance, safety, power efficiency, and ergonomics within strict size, weight, and cost constraints.
 
-&nbsp;
+### Project Motivation
 
-&nbsp;
+Cold, wet weather often makes gloves impractical and uncomfortable, especially when holding an umbrella for extended periods. The goal of this project was to design a lightweight, rechargeable umbrella handle that could quickly warm the user’s hands while remaining safe, intuitive to use, and suitable for everyday carry.
 
-![Construction](assets/img/construction.gif)
+### Technical Overview
+
+- **Embedded Control**: Built around an ESP32-S3 microcontroller to manage temperature control, user input, and display output while maintaining low power consumption.
+- **Power System**: Powered by a 1S2P 18650 lithium-ion battery pack (3.6–4.2 V), with onboard voltage monitoring and USB-C charging.
+- **Heating & Safety**: Four resistive heating films provide controlled heat output with three selectable levels and a startup boost mode. Software limits cap temperature and issue warnings after extended high-power operation.
+- **Mechanical Design**: The handle enclosure was designed in CAD and 3D-printed in PETG for strength, thermal stability, and comfort, with integrated cutouts for buttons, display, and charging port.
+- **System Integration**: Iterated the low-voltage switching design after MOSFET-based control proved ineffective at a 3.3 V gate drive, leading to excessive conduction losses. Replaced the MOSFET stage with a small mechanical relay to meet thermal requirements. A future revision would use MOSFETs with a low gate-threshold voltage and low RDS(on) at 3.3 V.
+
+### Outcomes
+
+- Reached **37 °C in under one minute**, with a capped maximum of **45 °C** for safety.
+- Achieved over **54 minutes of runtime** on a full charge.
+- Met all size (<40 cm), weight (<1 kg), and cost (<$75 materials) constraints.
+- Delivered a functional, comfortable prototype suitable for refinement and future manufacturing.
+
+## 📸 Gallary
 
 <div class="text-center">
 <div style="width: 75%; margin: 0 auto;">
