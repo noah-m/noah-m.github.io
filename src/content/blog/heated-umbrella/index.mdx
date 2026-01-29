@@ -20,16 +20,14 @@ Cold, wet weather often makes gloves impractical and uncomfortable, especially w
 - **Power System**: Powered by a 1S2P 18650 lithium-ion battery pack (3.6–4.2 V), with onboard voltage monitoring and USB-C charging.
 - **Heating & Safety**: Four resistive heating films provide controlled heat output with three selectable levels and a startup boost mode. Software limits cap temperature and issue warnings after extended high-power operation.
 - **Mechanical Design**: The handle enclosure was designed in CAD and 3D-printed in PETG for strength, thermal stability, and comfort, with integrated cutouts for buttons, display, and charging port.
-- **System Integration**: Iterated the low-voltage switching design after MOSFET-based control proved ineffective at a 3.3 V gate drive, leading to excessive conduction losses. Replaced the MOSFET stage with a small mechanical relay to meet thermal requirements. A future revision would use MOSFETs with a low gate-threshold voltage and low RDS(on) at 3.3 V.
+- **System Integration**: Iterated the low-voltage switching design after MOSFET-based control proved unreliable at 3.3 V, replacing it with a mechanical switching approach to meet thermal and safety requirements.
 
 ### Outcomes
 
 - Reached **37 °C in under one minute**, with a capped maximum of **45 °C** for safety.
 - Achieved over **54 minutes of runtime** on a full charge.
-- Met all size (<40 cm), weight (<1 kg), and cost (<$75 materials) constraints.
+- Met all size (﹤40 cm), weight (﹤1 kg), and cost (﹤75 materials) constraints.
 - Delivered a functional, comfortable prototype suitable for refinement and future manufacturing.
-
-## 📸 Gallary
 
 <div class="text-center">
 <div style="width: 75%; margin: 0 auto;">
