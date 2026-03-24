@@ -1,0 +1,58 @@
+---
+title: 'ROS2 Projects: Nav2 Planner and Controller'
+description: 'Theta*, A*, and Regulated Pure Pursuit implementation developed with ROS 2'
+date: 2026-03-02
+tags: ['ROS2']
+image: './banner.png'
+---
+
+import reportUrl from './report.pdf?url';
+import previewImage from './banner.jpg?url';
+import { buttonVariants } from '@/components/ui/button'
+import Link from '@/components/Link.astro'
+
+<div class="w-full max-w-2xl mx-auto my-6" style="aspect-ratio: 16/9;">
+  <iframe 
+    class="w-full h-full rounded-lg"
+    src="https://www.youtube.com/embed/SYOMpuAP53I" 
+    title="YouTube video player" 
+    frameBorder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowFullScreen>
+  </iframe>
+</div>
+
+This project focuses on autonomous navigation for a TurtleBot 3 through an indoor obstacle course using custom Nav2 plugins in ROS 2. In this work, we implemented and compared three planning approaches: raw A* on an octile grid, A* with line-of-sight waypoint skipping as post-processing, and Theta* as an any-angle planner.
+
+We paired these planners with Savitzky–Golay smoothing and a Regulated Pure Pursuit controller. The controller includes curvature-based speed reduction, obstacle-proximity scaling, adaptive lookahead, and separate goal alignment logic to handle final orientation.
+
+The system was developed in ROS 2 Jazzy using C++17 and tested in both Gazebo and on physical hardware. During testing, we troubleshooted issues such as SLAM drift, network-induced stoppages, and controller instability. We also explored simple methods for reducing velocity jerk, including rate limiting and first-order filtering, to improve real-world behaviour.
+
+**Software stack:** ROS 2 Jazzy, C++17, Nav2 plugins, Gazebo, TurtleBot 3, Foxglove.
+
+## Full report
+
+The video above shows the final system behaviour. The report below covers the planning pipeline, controller design, parameter tuning, and experimental results in more detail. For easier reading, you can also open it in a separate tab.
+
+import { Icon } from 'astro-icon/components'
+
+<a
+  href={reportUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+  class={buttonVariants({ variant: 'default', size: 'lg' }) + ' no-underline'}
+>
+  <span>Open report</span>
+  <Icon name="lucide:arrow-up-right" class="size-4" />
+</a>
+
+<div class="my-8">
+  <iframe
+    src={reportUrl}
+    width="100%"
+    height="900"
+    title="Project report PDF"
+    style={{ border: "1px solid rgba(255,255,255,0.12)", borderRadius: "12px" }}
+  />
+</div>
+
